@@ -2,7 +2,7 @@
 
 A native macOS Electron application for [CyberChef](https://github.com/gchq/CyberChef) - the Cyber Swiss Army Knife.
 
-![CyberChef Logo](https://github.com/gchq/CyberChef/raw/master/src/web/static/images/logo/cyberchef.png)
+![CyberChef Logo](https://github.com/gchq/CyberChef/raw/master/src/web/static/images/cyberchef-256x256.png)
 
 ## Features
 
