@@ -23,7 +23,7 @@ A native macOS Electron application for [CyberChef](https://github.com/gchq/Cybe
 ### 1. Clone the Repository
 
 ```bash
-git clone --recurse-submodules <your-repo-url>
+git clone --recurse-submodules https://github.com/szsascha/cyberchef-electron.git
 cd cyberchef-electron
 ```
 
@@ -56,7 +56,6 @@ brew install imagemagick
 
 # Create icon set
 mkdir cyberchef.iconset
-
 
 sips -z 16 16 CyberChef/src/web/static/images/cyberchef-512x512.png --out cyberchef.iconset/icon_16x16.png
 sips -z 32 32 CyberChef/src/web/static/images/cyberchef-512x512.png --out cyberchef.iconset/icon_16x16@2x.png
