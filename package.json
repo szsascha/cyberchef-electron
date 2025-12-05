@@ -1,0 +1,37 @@
+{
+  "name": "cyberchef-electron",
+  "version": "1.0.0",
+  "description": "CyberChef Electron App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:mac": "electron-builder --mac"
+  },
+  "keywords": ["cyberchef", "electron"],
+  "author": "",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.0"
+  },
+  "build": {
+    "appId": "com.cyberchef.electron",
+    "productName": "CyberChef",
+    "mac": {
+      "category": "public.app-category.developer-tools",
+      "icon": "cyberchef.icns",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": ["x64", "arm64"]
+        }
+      ]
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "CyberChef/build/prod/**/*",
+      "CyberChef/src/web/static/images/logo/**/*"
+    ]
+  }
+}
